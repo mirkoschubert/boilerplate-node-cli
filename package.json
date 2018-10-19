@@ -6,6 +6,7 @@
   "scripts": {
     "test": ""
   },
+  "preferGlobal": true,
   "bin": {
     "node-cli": "./bin/node-cli"
   },
@@ -16,11 +17,20 @@
   "bugs": {
     "url": "https://github.com/mirkoschubert/boilerplate-node-cli/issues"
   },
+  "licenses": [{
+    "type": "MIT"
+  }],
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
   "engines": {
     "node": ">=6.1"
   },
   "author": "Mirko Schubert",
   "license": "MIT",
+  "keywords": [
+    "boilerplate", "nodejs", "node", "cli", "command-line"  
+  ],
   "dependencies": {
     "chalk": "^2.4.1",
     "commander": "^2.19.0",
