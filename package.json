@@ -1,0 +1,29 @@
+{
+  "name": "node-cli",
+  "version": "0.1.0",
+  "description": "A Node CLI boilerplate",
+  "main": "./main.js",
+  "scripts": {
+    "test": ""
+  },
+  "bin": {
+    "node-cli": "./bin/node-cli"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:mirkoschubert/boilerplate-node-cli.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mirkoschubert/boilerplate-node-cli/issues"
+  },
+  "engines": {
+    "node": ">=6.1"
+  },
+  "author": "Mirko Schubert",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^2.4.1",
+    "commander": "^2.19.0",
+    "moment": "^2.22.2"
+  }
+}
